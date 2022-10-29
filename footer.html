@@ -1,5 +1,16 @@
-<footer classs="footer">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+<body>
+<footer class="footer">
     <div class="container">
+        <div class="footer__block--first">
     <a class="footer__link" href="#">
         <svg class="logo footer__logo" width="66" height="52">
             <use href="#"></use>
@@ -25,15 +36,20 @@
         </ul>
     </nav>
     <form class="footer__form">
-        <label>Subscribe
-            <input class="footer__input" type="email" name="email" />
+        <label class="footer__label">Subscribe
+            <input class="footer__input" type="email" name="email" placeholder="Enter your email" />
         </label>
-        <button type="submit">Subscribe</button>
+        <button type="submit" class="footer__button">Subscribe</button>
     </form>
-    <p class="footer__text">By subscribing you agree to with our <a href="#" class="footer__link">Privacy Policy</a></p>
-    <a href="#" class="footer__link">Privacy Policy</a>
-    <a href="#" class="footer__link">Terms of Service</a>
-    <a href="#" class="footer__link">Cookies settings</a>
+    </div>
+    <div class="footer__block--second">
+    <p class="footer__text">By subscribing you agree to with our <a href="#" class="footer__link--additional">Privacy Policy</a></p>
+    <a href="#" class="footer__link--additional">Privacy Policy</a>
+    <a href="#" class="footer__link--additional">Terms of Service</a>
+    <a href="#" class="footer__link--additional">Cookies settings</a>
     <p class="footer__text">2022 FoodSta. All right reserved.</p>
     </div>
+    </div>
 </footer>
+</body>
+</html>
